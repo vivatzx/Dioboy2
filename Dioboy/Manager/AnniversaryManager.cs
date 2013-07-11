@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Dioboy.Manager
 {
-	class AnniversaryManager : IDioBoyManager
+	class AnniversaryManager : MailManager
 	{
-		public int Run(DateTime tick)
-		{
-			//throw new NotImplementedException();
-			return 0;
-		}
+		
 	}
 }
